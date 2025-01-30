@@ -18,7 +18,8 @@ const Category = () => {
       />
     <Swiper
       slidesPerView={6}
-      centeredSlides={true}
+      initialSlide={0}
+      centeredSlides={false}
       spaceBetween={30}
       grabCursor={true}
       pagination={{
@@ -26,6 +27,12 @@ const Category = () => {
       }}
       modules={[Pagination]}
       className="mySwiper mb-12"
+      breakpoints={{
+        320: { slidesPerView: 1 },
+        640: { slidesPerView: 2 },
+        1024: { slidesPerView: 4 },
+        1280: { slidesPerView: 6 },
+      }}
     >
       <SwiperSlide>
         <img src={slide1} alt="" />
