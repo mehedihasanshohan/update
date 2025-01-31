@@ -1,4 +1,14 @@
-.featured-item{
+/* .featured-item{
   background-image: url('../../../assets//assets/home/featured.jpg');
 
+} */.featured-item {
+  background-image: url('../../../assets/assets/home/featured.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: background-position 0.5s ease-in-out;
 }
+
+.featured-item:hover {
+  background-position: center top;
+}
+

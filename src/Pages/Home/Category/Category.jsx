@@ -35,40 +35,40 @@ const Category = () => {
       }}
     >
       <SwiperSlide>
-        <img src={slide1} alt="" />
-        <h2 className='text-4xl text-center -mt-16 text-rose-700'>SALADS</h2>
+        <img src={slide1} className=' transition-transform duration-300 hover:scale-125' alt="" />
+        <h2 className='text-4xl text-center -mt-16 text-rose-700 '>SALADS</h2>
       </SwiperSlide>
       <SwiperSlide>
-        <img src={slide2} alt="" />
-        <h2 className='text-4xl text-center -mt-16 text-rose-700'>SOUPS</h2>
+        <img src={slide2} className=' transition-transform duration-300 hover:scale-125' alt="" />
+        <h2 className='text-4xl text-center -mt-16 text-rose-700 '>SOUPS</h2>
       </SwiperSlide>
       <SwiperSlide>
-        <img src={slide3} alt="" />
-        <h2 className='text-4xl text-center -mt-16 text-rose-700'>PIZZA</h2>
+        <img src={slide3} className=' transition-transform duration-300 hover:scale-125' alt="" />
+        <h2 className='text-4xl text-center -mt-16 text-rose-700 '>PIZZA</h2>
       </SwiperSlide>
       <SwiperSlide>
-        <img src={slide4} alt="" />
-        <h2 className='text-4xl text-center -mt-16 text-rose-700'>SOUPS</h2>
+        <img src={slide4} className=' transition-transform duration-300 hover:scale-125' alt="" />
+        <h2 className='text-4xl text-center -mt-16 text-rose-700 '>SOUPS</h2>
       </SwiperSlide>
       <SwiperSlide>
-        <img src={slide5} alt="" />
-        <h2 className='text-4xl text-center -mt-16 text-rose-700'>DESSERT</h2>
+        <img src={slide5} className=' transition-transform duration-300 hover:scale-125' alt="" />
+        <h2 className='text-4xl text-center -mt-16 text-rose-700 '>DESSERT</h2>
       </SwiperSlide>
       <SwiperSlide>
-        <img src={slide1} alt="" />
-        <h2 className='text-4xl text-center -mt-16 text-rose-700'>SALADS</h2>
+        <img src={slide1} className=' transition-transform duration-300 hover:scale-125' alt="" />
+        <h2 className='text-4xl text-center -mt-16 text-rose-700 '>SALADS</h2>
       </SwiperSlide>
       <SwiperSlide>
-        <img src={slide2} alt="" />
-        <h2 className='text-4xl text-center -mt-16 text-rose-700'>SALADS</h2>
+        <img src={slide2} className=' transition-transform duration-300 hover:scale-125' alt="" />
+        <h2 className='text-4xl text-center -mt-16 text-rose-700 '>SALADS</h2>
       </SwiperSlide>
       <SwiperSlide>
-        <img src={slide3} alt="" />
-        <h2 className='text-4xl text-center -mt-16 text-rose-700'>SALADS</h2>
+        <img src={slide3} className=' transition-transform duration-300 hover:scale-125' alt="" />
+        <h2 className='text-4xl text-center -mt-16 text-rose-700 '>SALADS</h2>
       </SwiperSlide>
       <SwiperSlide>
-        <img src={slide4} alt="" />
-        <h2 className='text-4xl text-center -mt-16 text-rose-700'>SALADS</h2>
+        <img src={slide4} className=' transition-transform duration-300 hover:scale-125' alt="" />
+        <h2 className='text-4xl text-center -mt-16 text-rose-700 '>SALADS</h2>
       </SwiperSlide>
     </Swiper>
   </section>

@@ -14,7 +14,7 @@ const Featured = () => {
         <div>
           <img src={featuredImg} alt="" />
         </div>
-        <div className="md:ml-11">
+        <div className="md:ml-11 bg-slate-100 shadow-rose-800/95 p-4 rounded-2xl text-black">
           <p>Aug 23, 1998</p>
           <p className="uppercase">where can i get some?</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ipsum ducimus nemo architecto adipisci aut porro cupiditate eligendi nulla tempora.</p>
